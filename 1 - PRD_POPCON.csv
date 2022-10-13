@@ -1,0 +1,17 @@
+﻿Variable,Value,Unit
+On axis toroidal B,12.2,T
+Major radius,1.85,m
+Minor radius,0.57,m
+Plasma current,8.7,MA
+Seperatrix elongation,1.97,
+Seperatrix triangularity,0.54,
+"H98,Y2",1,
+Energy confinement time,0.77,
+Zeff,1.5,
+Main ion dilution,0.85,
+Main ion tritium fraction,0.5,
+Average temperature,7.3,keV
+Average density,3.10E+20,/m3
+RF power,11.1,MW
+Ohmic power,1.7,MW
+Fusion power,141,MW
