@@ -1,5 +1,5 @@
 # SPARCPublic
-SPARC is a compact high-field tokamak (R_0 = 1.85 m, B_0 = 12.1 T) being constructed by Commonwealth Fusion System (CFS). This repository contains a collection of files that can be used as inputs in the codes commonly used in the Plasma Physics community. More details on SPARC can be found in aspecial series of 7 papers published in the Journal of Plasma Physics in 2020 on the SPARC Physics Basis:
+SPARC is a compact high-field tokamak (R_0 = 1.85 m, B_0 = 12.2 T) being constructed by Commonwealth Fusion System (CFS). This repository contains a collection of files that can be used as inputs in the physics codes commonly used in the Plasma Physics community. More details on SPARC can be found in a special series of 7 papers published in the Journal of Plasma Physics in 2020 on the SPARC Physics Basis:
 
 Status of the SPARC Physics Basis (Status of the SPARC Physics Basis )
 - Creely, A., Greenwald, M., Ballinger, S., Brunner, D., Canik, J., Doody, J., . . . Zhu, J. (2020). Overview of the SPARC tokamak. Journal of Plasma Physics, 86(5), 865860502. doi:10.1017/S0022377820001257
@@ -10,12 +10,13 @@ Status of the SPARC Physics Basis (Status of the SPARC Physics Basis )
 - Sweeney, R., Creely, A., Doody, J., Fülöp, T., Garnier, D., Granetz, R., . . . Zhu, J. (2020). MHD stability and disruptions in the SPARC tokamak. Journal of Plasma Physics, 86(5), 865860507. doi:10.1017/S0022377820001129
 - Scott, S., Kramer, G., Tolman, E., Snicker, A., Varje, J., Särkimäki, K., . . . Rodriguez-Fernandez, P. (2020). Fast-ion physics in SPARC. Journal of Plasma Physics, 86(5), 865860508. doi:10.1017/S0022377820001087
 
-This repository is designed to make publicly available a set of SPARC baseline parameters for the purpose of scientific exploration. It is important to clarify that the information within is meant to be a snapshot of the SPARC design and representative. For this first release, most of the information within is based on the figures and tables published in the Journal of Plasma Physics papers. The repository includes the following:
+## Content
+This repository is designed to make publicly available a set of SPARC baseline parameters for the purpose of scientific exploration. It is important to clarify that the information within is meant to be a snapshot in time of the SPARC design and representative of plasmas that may be produced in the machine. For this first release, most of the information within is based on the figures and tables published in the Journal of Plasma Physics papers. The repository includes the following:
 
-## Primary Reference Discharge
+### Primary Reference Discharge
 
 - POPCON generated 0D scenario parameters
-- Magnetic equilibrium formatted as g-files and generated using the FREEGS code [FREEGS code](https://github.com/freegs-plasma/freegs) with a simplified first wall contour:
+- Magnetic equilibrium formatted as geqdsk-files and generated using the FREEGS code [FREEGS code](https://github.com/freegs-plasma/freegs) with a simplified first wall contour:
   - Double null discharge equilibrium
   - Lower single null discharge equilibrium
 - CHEASE modified core plasma equilibrium
@@ -23,16 +24,16 @@ This repository is designed to make publicly available a set of SPARC baseline p
   - TRANSP
   - CGYRO
 
-## X-point target
+### X-point target
 
 - POPCON generated 0D scenario parameters
-- Magnetic equilibrium formatted as g-files and generated using the [FREEGS code](https://github.com/freegs-plasma/freegs) with a simplified first wall contour:
+- Magnetic equilibrium formatted as geqdsk-files and generated using the [FREEGS code](https://github.com/freegs-plasma/freegs) with a simplified first wall contour:
   - Double null discharge equilibrium
   - single null discharge equilibrium
 
 ## Version
 
-Note though that over the last two years, the design has progressed and range of scenarios expanded. Subsequent version controlled updates will be released with the associated data provenance.
+Note though that over the last two years, the design has progressed and the range of scenarios expanded. Subsequent version controlled updates will be released with the associated data provenance.
 
 0.1.0 13th October 2022
 - Initial file list released consistent with figures and data used in the Journal of Plasma Physics 2020 publications.
@@ -60,7 +61,7 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 Use of this data in publication and presentation should be acknowledged as:
 
-"... I am drawing a blank ..."
+"SPARC parameters provided by Commonwealth Fusion Systems via an online public release."
 
 ## Contact Information
 
