@@ -10,9 +10,10 @@ Status of the SPARC Physics Basis (Status of the SPARC Physics Basis )
 - Sweeney, R., Creely, A., Doody, J., Fülöp, T., Garnier, D., Granetz, R., . . . Zhu, J. (2020). MHD stability and disruptions in the SPARC tokamak. Journal of Plasma Physics, 86(5), 865860507. doi:10.1017/S0022377820001129
 - Scott, S., Kramer, G., Tolman, E., Snicker, A., Varje, J., Särkimäki, K., . . . Rodriguez-Fernandez, P. (2020). Fast-ion physics in SPARC. Journal of Plasma Physics, 86(5), 865860508. doi:10.1017/S0022377820001087
 
+## Content
 This repository is designed to make publicly available a set of SPARC baseline parameters for the purpose of scientific exploration. It is important to clarify that the information within is meant to be a snapshot of the SPARC design and representative. For this first release, most of the information within is based on the figures and tables published in the Journal of Plasma Physics papers. The repository includes the following:
 
-## Primary Reference Discharge
+### Primary Reference Discharge
 
 - POPCON generated 0D scenario parameters
 - Magnetic equilibrium formatted as g-files and generated using the FREEGS code [FREEGS code](https://github.com/freegs-plasma/freegs) with a simplified first wall contour:
@@ -23,7 +24,7 @@ This repository is designed to make publicly available a set of SPARC baseline p
   - TRANSP
   - CGYRO
 
-## X-point target
+### X-point target
 
 - POPCON generated 0D scenario parameters
 - Magnetic equilibrium formatted as g-files and generated using the [FREEGS code](https://github.com/freegs-plasma/freegs) with a simplified first wall contour:
