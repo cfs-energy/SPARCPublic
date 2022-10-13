@@ -15,7 +15,7 @@ This repository is designed to make publicly available a set of SPARC baseline p
 ## Primary Reference Discharge
 
 - POPCON generated 0D scenario parameters
-- Magnetic equilibrium formatted as g-files and generated using the FREEGS code (GitHub - freegs-plasma/freegs: Free boundary Grad-Shafranov solver) with a simplified first wall contour:
+- Magnetic equilibrium formatted as g-files and generated using the FREEGS code [FREEGS code](https://github.com/freegs-plasma/freegs) with a simplified first wall contour:
   - Double null discharge equilibrium
   - Lower single null discharge equilibrium
 - CHEASE modified core plasma equilibrium
@@ -26,7 +26,7 @@ This repository is designed to make publicly available a set of SPARC baseline p
 ## X-point target
 
 - POPCON generated 0D scenario parameters
-- Magnetic equilibrium formatted as g-files and generated using the FREEGS code (GitHub - freegs-plasma/freegs: Free boundary Grad-Shafranov solver) with a simplified first wall contour:
+- Magnetic equilibrium formatted as g-files and generated using the [FREEGS code](https://github.com/freegs-plasma/freegs) with a simplified first wall contour:
   - Double null discharge equilibrium
   - single null discharge equilibrium
 
