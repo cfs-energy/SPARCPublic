@@ -61,7 +61,7 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 Use of this data in publication and presentation should be acknowledged as:
 
-"SPARC parameters provided by Commonwealth Fusion Systems via an online public release."
+"The information, data, or work presented herein builds on the SPARC primary reference discharge and X-point target discharge data provided by Commonwealth Fusion Systems."
 
 ## Contact Information
 
