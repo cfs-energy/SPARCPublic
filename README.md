@@ -22,7 +22,7 @@ This repository is designed to make publicly available a set of SPARC baseline p
 - CHEASE modified core plasma equilibrium
 - Core plasma profiles formatted as a simplified version of an input.gacode file and generated using:
   - TRANSP
-  - CGYRO
+  - CGYRO - data published in Rodriguez-Fernandez, P., et al. “Nonlinear gyrokinetic predictions of SPARC burning plasma profiles enabled by surrogate modeling.“ Nucl. Fusion 62 076036 (2022).
 
 ### X-point target
 
