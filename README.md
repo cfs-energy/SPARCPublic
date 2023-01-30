@@ -15,14 +15,23 @@ This repository is designed to make publicly available a set of SPARC baseline p
 
 ### Primary Reference Discharge
 
-- POPCON generated 0D scenario parameters
+- POPCON generated 0D scenario parameters (1)
+
 - Magnetic equilibrium formatted as geqdsk-files and generated using the FREEGS code [FREEGS code](https://github.com/freegs-plasma/freegs) with a simplified first wall contour:
-  - Double null discharge equilibrium
-  - Lower single null discharge equilibrium
-- CHEASE modified core plasma equilibrium
+  - Double null discharge equilibrium (2)
+  - Lower single null discharge equilibrium (3)
+  - Double null discharge equilibrium with high resolution (7)
+
+
+- CHEASE modified core plasma equilibrium (4)
+
 - Core plasma profiles formatted as a simplified version of an input.gacode file and generated using:
-  - TRANSP
-  - CGYRO - data published in Rodriguez-Fernandez, P., et al. “Nonlinear gyrokinetic predictions of SPARC burning plasma profiles enabled by surrogate modeling.“ Nucl. Fusion 62 076036 (2022).
+  - TRANSP (5)
+  - CGYRO (6) - data published in Rodriguez-Fernandez, P., et al. “Nonlinear gyrokinetic predictions of SPARC burning plasma profiles enabled by surrogate modeling.“ Nucl. Fusion 62 076036 (2022).
+
+
+- Coil positions / currents for the FreeGS DN Equilibrium (8)
+
 
 ### X-point target
 
@@ -66,5 +75,3 @@ Use of this data in publication and presentation should be acknowledged as:
 ## Contact Information
 
 For all enquiries please email akuang@cfs.energy or alex@cfs.energy
-
-
