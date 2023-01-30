@@ -20,6 +20,25 @@ pf3u      :     -2.17
 pf3l      :     -2.17
 pf4u      :     -4.96
 pf4l      :     -4.96
+div1uA    :      0.00
+div1uB    :      0.00
+div1uC    :      0.00
+div1uD    :      0.00
+div1lA    :      0.00
+div1lB    :      0.00
+div1lC    :      0.00
+div1lD    :      0.00
+div2uA    :      0.00
+div2uB    :      0.00
+div2uC    :      0.00
+div2uD    :      0.00
+div2lA    :      0.00
+div2lB    :      0.00
+div2lC    :      0.00
+div2lD    :      0.00
+vs1u      :      0.00
+vs1l      :      0.00
+
 
 
 ===CS Coils
@@ -47,3 +66,36 @@ pf3u,      2.65,         2.23
 pf3l,      2.65,        -2.23
 pf4u,      3.75,         1.3
 pf4l,      3.75,        -1.3
+
+===DIV Coils
+name,      Rctr[m],     Zctr[m]
+div1uA,    2.0325,       1.4775
+div1uB,    2.1075,       1.4775
+div1uC,    2.0325,       1.4025
+div1uD,    2.1075,       1.4025
+div1lA,    2.0325,      -1.4775
+div1lB,    2.1075,      -1.4775
+div1lC,    2.0325,      -1.4025
+div1lD,    2.1075,      -1.4025
+div2uA,    2.0325,       1.2975
+div2uB,    2.1075,       1.2975
+div2uC,    2.0325,       1.2225
+div2uD,    2.1075,       1.2225
+div2lA,    2.0325,      -1.2975
+div2lB,    2.1075,      -1.2975
+div2lC,    2.0325,      -1.2225
+div2lD,    2.1075,      -1.2225
+
+===VS Coils
+name,      Rctr[m],     Zctr[m]
+vs1u,      2.40,         0.70
+vs1l,      2.40,        -0.7
+
+===EFCC Coils
+name,      Rctr[m],     Zctr[m]
+efcc1a,    2.85,         0.75
+efcc1b,    2.85,        -0.75
+efcc2a,    2.41,         1.27
+efcc2b,    2.675,        0.895
+efcc3a,    2.41,        -1.27
+efcc3b,    2.675,       -0.895
