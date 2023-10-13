@@ -42,7 +42,7 @@ This repository is designed to make publicly available a set of SPARC baseline p
 
 
 ### EQlibrary
- - This folder contains ~100 magnetic equilibrium reconstructions in GEQDSK format.  
+ - This folder contains ~100 magnetic equilibria in GEQDSK format.  
  - Also contains a .png for each GEQDSK
  - GEQDSKs have been corrected to match SPARC helicity
 
