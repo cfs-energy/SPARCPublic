@@ -40,6 +40,12 @@ This repository is designed to make publicly available a set of SPARC baseline p
   - Double null discharge equilibrium
   - single null discharge equilibrium
 
+
+### EQlibrary
+ - This folder contains ~100 magnetic equilibrium reconstructions in GEQDSK format.  
+ - Also contains a .png for each GEQDSK
+ - GEQDSKs have been corrected to match SPARC helicity
+
 ## Version
 
 Note though that over the last two years, the design has progressed and the range of scenarios expanded. Subsequent version controlled updates will be released with the associated data provenance.
