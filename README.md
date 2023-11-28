@@ -46,6 +46,12 @@ This repository is designed to make publicly available a set of SPARC baseline p
  - Also contains a .png for each GEQDSK
  - GEQDSKs have been corrected to match SPARC helicity
 
+### LmodeLowerSingleNull
+
+ - Lower-single-null equilibria for vertical-vertical, vertical-horizontal and horizontal-vertical targets.
+ - Parameters correspond to a high-performance L-mode: $R_0 = 1.85m$, $B_0 = 12.16T$, $I_p=8.5MA$, on-axis pressure $p_0= 0.5MPa$.
+ - Magnetic equilibrium formatted as geqdsk and netcdf, generated using the [FREEGS code](https://github.com/freegs-plasma/freegs)
+
 ## Version
 
 Note though that over the last two years, the design has progressed and the range of scenarios expanded. Subsequent version controlled updates will be released with the associated data provenance.
