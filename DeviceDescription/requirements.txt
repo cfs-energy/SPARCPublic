@@ -1,0 +1,2 @@
+matplotlib==3.9.2
+omas==0.94.1

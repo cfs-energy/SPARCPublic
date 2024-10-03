@@ -52,6 +52,10 @@ This repository is designed to make publicly available a set of SPARC baseline p
  - Parameters correspond to a high-performance L-mode: $R_0 = 1.85m$, $B_0 = 12.16T$, $I_p=8.5MA$, on-axis pressure $p_0= 0.5MPa$.
  - Magnetic equilibrium formatted as geqdsk and netcdf, generated using the [FREEGS code](https://github.com/freegs-plasma/freegs)
 
+### DeviceDescription
+
+- A SPARC like device description following the IMAS/OMAS standard data schema. Find more details at [`./DeviceDescription/README.md`](./DeviceDescription/README.md)
+
 ## Version
 
 Note though that over the last two years, the design has progressed and the range of scenarios expanded. Subsequent version controlled updates will be released with the associated data provenance.
